@@ -1,27 +1,27 @@
 class CipherowlSr3 < Formula
   desc "CLI for CipherOwl address screening, risk reasoning, and reporting"
   homepage "https://github.com/cipherowl-ai/cipherowl-sr3"
-  version "2026.4.0"
+  version "2026.5.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/cipherowl-ai/cipherowl-sr3/releases/download/2026.4.0/cipherowl-sr3-darwin-arm64"
-      sha256 "a148ffd43ecf7986ce569962d395586bb50cb9fe5ce50d813d082d90ce67bf19"
+      url "https://github.com/cipherowl-ai/cipherowl-sr3/releases/download/2026.5.0/cipherowl-sr3-darwin-arm64"
+      sha256 "e4e22635f69e9fa9886acbbf2f2a7668da0435e09526050fd45b9ab15d6d0ecf"
     end
     on_intel do
-      url "https://github.com/cipherowl-ai/cipherowl-sr3/releases/download/2026.4.0/cipherowl-sr3-darwin-amd64"
-      sha256 "e50b832c1fe05fb818fd51ec0113a96d5d8c2e5edb3fd85b34a71b616e05d364"
+      url "https://github.com/cipherowl-ai/cipherowl-sr3/releases/download/2026.5.0/cipherowl-sr3-darwin-amd64"
+      sha256 "8a140f33945b30b780040b491e3fe4e3ac3efe6c0b4dc2d3f2c8b4aeddf36faf"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/cipherowl-ai/cipherowl-sr3/releases/download/2026.4.0/cipherowl-sr3-linux-arm64"
-      sha256 "b799a96405ef11ba658b25a557ef5839c3cf7cc4b703d7016405c55c992edc45"
+      url "https://github.com/cipherowl-ai/cipherowl-sr3/releases/download/2026.5.0/cipherowl-sr3-linux-arm64"
+      sha256 "ecaf14d8c728554fd73db5983c63e2b66bc92363789a7a44f669507bb065487c"
     end
     on_intel do
-      url "https://github.com/cipherowl-ai/cipherowl-sr3/releases/download/2026.4.0/cipherowl-sr3-linux-amd64"
-      sha256 "78b3203cf0c9de152754c23138be9cca810bcf35a0c2a9cabd794c1cd1b96b75"
+      url "https://github.com/cipherowl-ai/cipherowl-sr3/releases/download/2026.5.0/cipherowl-sr3-linux-amd64"
+      sha256 "7c52f9ca19ebaccb06861700353a7acebf74d4737f0bb8b79ca7270e4a26a19e"
     end
   end
 
